@@ -95,7 +95,7 @@ class Command(BaseCommand):
         self.interval = options.get("interval")
 
         # Arbitrary
-        self.table_width = 78
+        self.table_width = 90
 
         # Do not continuously poll
         if not self.interval:
